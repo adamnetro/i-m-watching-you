@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+
+*{
+    font-family: 'Rubik 80s Fade', cursive;
+    margin: 0%;
+    font-weight: 900;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+.wrong{
+    color: red;
+    font-size: 5em;
+    margin-left: 27%;
+    margin-top: 10%;
+}
+
+.BTN{
+    margin-top: 2em;
+    margin-left: 41%;
+    padding: 10px 10px;
+    font-size: 3em;
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-bottom: 3px solid red;
+}
+
+.VD-HCK{
+    height: 40em;
+    margin-left: 20%;
+    position: fixed;
+    display: none;
+}
+
+.VD-active{
+    display: block;
+}
